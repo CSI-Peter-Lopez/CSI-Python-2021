@@ -1,0 +1,8 @@
+print('')
+print('PPPPP    EEEEE     L L          GGGGGG')
+print('P   PP   E         L L        G G    GG')
+print('P   PP   E         L L        G G     ')
+print('PPPP     EEE       L L        G GGGGGGG')
+print('P        E         L L        G G    GG')
+print('P        E         L L        G G    GG')
+print('P        EEEEE     L LLLLLL     GGGGGG')

@@ -96,24 +96,28 @@ print(type(age))
 
 What is the difference between "42" and 42.
 
- - Answer:
+ - Answer:el que tiene comillas es un stream, el segundo es un intiger
 
 Define the boolean operators: >, <, ==, >=, <=
 
- - Answer:
+ - Answer:1)mayor 2)menor 3)igual 4)mayor igual 5)menor igual
 
 How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         arr = [4, 3, -1, 4, 34]
 
- - Answer:
+ - Answer:arr = [4, 3, -1, 4, 34]
+>>> arr[4]
+34  
+>>> arr[0]
+4
 
 What is the first index of an list? Why?
 
- - Answer:
+ - Answer:0
 
 Provide an original example of a null value. It must prove your understanding of the concept.
 
- - Answer:
+ - Answer:"How many books does Adam own?" The answer may be "zero" (we know that he owns none) or "null" (we do not know how many he owns).
 
 Type down any class notes below this sentence:
 
