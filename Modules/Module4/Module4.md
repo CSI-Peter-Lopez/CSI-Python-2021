@@ -1,4 +1,4 @@
-<div style="text-align:center">
+ <div style="text-align:center">
         <img    src="https://www.techrepublic.com/a/hub/i/r/2019/09/13/1691e9ad-4a07-4cb0-8799-ba22c6dd2e15/resize/1200x/53d0d8dd9212718ef9636ecb460dcee2/istock-1156903535.jpg"
                 title="Python" 
                 width="40%" 
@@ -135,22 +135,32 @@ Evaluate the following code. Is the code written correctly? What would be the co
         print('This message has a syntax error!")
         print(Churrigueresco)
 
- - Answer:
+ - Answer:tiene una comilla al principio y al final tiene dos
 
 Evaluate the following code. Is the code written correctly? What would be the correct code?
         someNumber=360
         print(' The Number is someNumber ')
 Expected:  The Number is 360
 
- - Answer:
+ - Answer:someNumber int = (360)
+  print(f'The Number is){someNumber}')
 
 Define a function that takes 2 or more parameters and prints a single line using them as part of a functional string. The function may do anything you chose but the function name and parameter names must be representative of what they are.
 
  - Answer:
+myName:str = "Peter"
+myAge:int = 14
+mystring = f'Hello {myName}! Your are {myAge}
+print(myString)
+
+s0 = "what is my length? store it as a number ir
+ss0 = len(s0)
+print(ss0)
 
 Type down any class notes below this sentence:
 
-
+upper = todas mayusculas 
+capitalize = primera letra mayuscula
 
 Lackluster responses may result in point deductions.
 -->
