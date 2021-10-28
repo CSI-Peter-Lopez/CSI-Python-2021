@@ -25,7 +25,7 @@ def main():
         elif(playerChoice == "paper" and computerChoice == "scissors"):
              print("Scissors cut PAPER. You lost!!!! :( ")
         elif(playerChoice == "rock" and computerChoice == "scissors"):
-            print("Rock break SCISSORS. You lost!!!! :( ")
+            print("Rock break SCISSORS. You  win!!!! :( ")
         else:
             print("Something ins't right. Maybe try again")
         play_again = input("Play again? Enter 'y' for yes or 'n' for no.")
