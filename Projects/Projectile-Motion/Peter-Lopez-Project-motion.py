@@ -22,14 +22,14 @@ def ProjectileFunction(experimentalData: ExperimentalData):
     planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
     g_ms2 = [3.7, 8.87, 9.81, 3.711, 24.79, 10.44, 8.69, 11.15]
 
-    planet = planets.index(ExperimentalData.planet)
-    time_s = math.sqrt((2 * ExperimentalData.BuildingHeight) / g_ms2[planets])
+    planet = planets.index(experimentalData.planet)
+    time_s = math.sqrt((2 * experimentalData.BuildingHeight) / g_ms2[planet])
 
-    distance_m = (ExperimentalData.velocity_ms * time_s)
+    distance_m = (experimentalData.velocity_ms * time_s)
     # distance_m = (experimentalData[velocity_ms] * time_s)
     
-    print(f"The gun selected for the experiment is {ExperimentalData.gun}. Whith the caliber {ExperimentalData.caliber}, amunicion {ExperimentalData.amm4unition} with a velocity of {ExperimentalData.velocity_ms}. We will shoot from the {ExperimentalData.Building} building with a height of {ExperimentalData.BuildingHeight}.")
-    print(f"The experiment is carried out in {ExperimentalData.planet} with a gravity of {g_ms2[planet]}")
+    print(f"The gun selected for the experiment is {experimentalData.gun}. Whith the caliber {experimentalData.caliber}, amunicion {experimentalData.ammunition} with a velocity of {experimentalData.velocity_ms}. We will shoot from the {experimentalData.Building} building with a height of {experimentalData.BuildingHeight}.")
+    print(f"The experiment is carried out in {experimentalData.planet} with a gravity of {g_ms2[planet]}")
 
 
 # Convert your script parameters into a single JSON object
