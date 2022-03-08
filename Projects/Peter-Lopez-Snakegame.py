@@ -18,7 +18,7 @@ pygame.display.set_caption("Snake game by PL")
 game_over=False
 
 snake_block = 10
-snake_sped = 30
+snake_sped = 15
 
 clock = pygame.time.Clock()
 
@@ -108,12 +108,13 @@ def gameRestart():
         our_snake(snake_block, snake_List)
 
         My_score(length_of_snake -1)
+
         pygame.display.update()
 
         if x1 == foodx and y1 == foody:
             foodx = round(random.randrange(0, dis_width - snake_block) / 10) *10
             foody = round(random.randrange(0, dis_height - snake_block) / 10) *10
-            length_of_snake += -1
+            length_of_snake += 1
 
         clock.tick(snake_sped)
 
